@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TAG</string>
+    <string name="gamejoin">Join Game</string>
+    <string name="gamecreate">Create Game</string>
+    <string name="setting">Settings</string>
+    <string name="about">About</string>
+    <string name="signin">SIGN IN</string>
+    <string name="register">SIGN UP</string>
+    <string name="signout">Sign out</string>
+    <string name="signin_other_error">Impossible to sign in!</string>
+    <string name="quickgame">Quick Game</string>
+    <string name="inviteplayers">Invite Players</string>
+    <string name="waitroom">Wait Room</string>
+    <string name="game_setup">CREATE GAME</string>
+    <string name="invites">INVITATIONS</string>
+
+    <string-array name="game_types">
+        <item>Free-for-All</item>
+        <item>Team deathmatch</item>
+        <item>Kill confirmed</item>
+        <item>Zone Capture</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:textAlignment="center"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/register"
+            android:textColor="@color/whiteAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold|italic"
+            android:gravity="center_vertical"
+            android:textSize="30sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="NAME:"
+                    android:layout_margin="10sp"/>
+
+                <EditText
+                    android:id="@+id/register_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:inputType="textPersonName"
+                    android:layout_margin="10sp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="PSEUDONAME:"
+                    android:layout_margin="10sp"/>
+
+                <EditText
+                    android:id="@+id/register_pseudo"
+                    android:layout_width="match_parent"
+                    android:textSize="10sp"
+                    android:layout_height="40sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_margin="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="EMAIL:"
+                    android:layout_margin="10sp"/>
+
+                <EditText
+                    android:id="@+id/register_email"
+                    android:layout_width="match_parent"
+                    android:textSize="10sp"
+                    android:layout_height="40sp"
+                    android:textColor="@color/colorAccent"
+                    android:inputType="textEmailAddress"
+                    android:layout_margin="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="PASSWORD:"
+                    android:layout_margin="10sp"/>
+
+                <EditText
+                    android:id="@+id/register_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorAccent"
+                    android:inputType="textPassword"
+                    android:layout_margin="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="CONFIRM PASSWORD:"
+                    android:layout_margin="10sp"/>
+
+                <EditText
+                    android:id="@+id/register_password_confirm"
+                    android:layout_width="match_parent"
+                    android:textSize="10sp"
+                    android:layout_height="40sp"
+                    android:textColor="@color/colorAccent"
+                    android:inputType="textPassword"
+                    android:layout_margin="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="PHONE:"
+                    android:layout_margin="10sp"/>
+
+                <EditText
+                    android:id="@+id/register_phone"
+                    android:layout_width="match_parent"
+                    android:textSize="10sp"
+                    android:layout_height="40sp"
+                    android:textColor="@color/colorAccent"
+                    android:inputType="number"
+                    android:layout_margin="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="DATE OF BIRTH:"
+                    android:layout_margin="10sp"/>
+
+                <EditText
+                    android:id="@+id/register_birthday"
+                    android:layout_width="match_parent"
+                    android:textSize="10sp"
+                    android:layout_height="40sp"
+                    android:textColor="@color/colorAccent"
+                    android:inputType="date"
+                    android:layout_margin="10sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/register_submit"
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold|italic"
+                android:text="Register"
+                android:layout_marginTop="20sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

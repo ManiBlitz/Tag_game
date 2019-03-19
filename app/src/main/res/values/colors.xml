@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFDE03</color>
+    <color name="colorPrimaryDark">#FF9100</color>
+    <color name="colorAccent">#EC0B0B</color>
+    <color name="whiteAccent">#FFFFFF</color>
+    <color name="lobbyGray">#110029</color>
+    <color name="lobbyPlayer">#424242</color>
+</resources>

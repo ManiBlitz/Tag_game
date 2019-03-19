@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1624962291",
+    "firebase_url": "https://mapper-18744.firebaseio.com",
+    "project_id": "mapper-18744",
+    "storage_bucket": "mapper-18744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1624962291:android:e7b934e51bd3a71e",
+        "android_client_info": {
+          "package_name": "com.example.kevin_tiba.mapper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1624962291-17e85g3r364fi62674f9fl3k0g1ou0gl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kevin_tiba.mapper",
+            "certificate_hash": "2787cb2468b2fff70f12632b3e8534ae4b666b72"
+          }
+        },
+        {
+          "client_id": "1624962291-46c3ln83bafd273gk5qisilf9mdev7mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNKq7idHByjoWtTTtrFTqgzf2QkUQeubE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1624962291-46c3ln83bafd273gk5qisilf9mdev7mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
