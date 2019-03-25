@@ -6,4 +6,6 @@
     <color name="whiteAccent">#FFFFFF</color>
     <color name="lobbyGray">#110029</color>
     <color name="lobbyPlayer">#424242</color>
+    <color name="blueMessage">#64B5F6</color>
+    <color name="messageClosed">#282389</color>
 </resources>
