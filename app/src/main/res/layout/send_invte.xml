@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:textAlignment="center"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/send_invite"
+            android:textColor="@color/whiteAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold|italic"
+            android:gravity="center_vertical"
+            android:textSize="30sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="USERNAME:"
+                    android:layout_margin="10sp"/>
+
+                <EditText
+                    android:id="@+id/username_invite"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    android:inputType="textPersonName"
+                    android:layout_margin="10sp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/invite_send"
+                android:layout_width="200sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold|italic"
+                android:text="@string/send_button"
+                android:layout_marginTop="20sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

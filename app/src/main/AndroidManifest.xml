@@ -38,11 +38,13 @@
         <activity android:name=".Lobby" />
         <activity android:name=".Main_screen" />
         <activity android:name=".Common_location_service" />
+        <activity android:name=".SendInvite" />
 
 
         <service android:name=".Sign_in_validation" />
         <service android:name=".Registration_validation" />
         <service android:name=".Game_create_service" />
+        <service android:name=".Invite_service" />
     </application>
 
 </manifest>

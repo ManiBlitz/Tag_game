@@ -13,6 +13,8 @@
     <string name="waitroom">Wait Room</string>
     <string name="game_setup">CREATE GAME</string>
     <string name="invites">INVITATIONS</string>
+    <string name="send_invite">SEND INVITE</string>
+    <string name="send_button">Send</string>
 
     <string-array name="game_types">
         <item>Free-for-All</item>
