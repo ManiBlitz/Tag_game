@@ -39,6 +39,7 @@
         <activity android:name=".Main_screen" />
         <activity android:name=".Common_location_service" />
         <activity android:name=".SendInvite" />
+        <activity android:name=".Invitations" />
 
 
         <service android:name=".Sign_in_validation" />
