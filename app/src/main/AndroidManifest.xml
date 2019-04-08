@@ -47,6 +47,7 @@
         <service android:name=".Registration_validation" />
         <service android:name=".Game_create_service" />
         <service android:name=".Invite_service" />
+        <service android:name=".Lobby_service_logs" />
     </application>
 
 </manifest>
