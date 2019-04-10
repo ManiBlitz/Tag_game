@@ -48,6 +48,8 @@
         <service android:name=".Game_create_service" />
         <service android:name=".Invite_service" />
         <service android:name=".Lobby_service_logs" />
+        <service android:name=".Invitations_open_service" />
+        <service android:name=".Invitations_broadcast" />
     </application>
 
 </manifest>
