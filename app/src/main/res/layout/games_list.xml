@@ -27,11 +27,26 @@
             android:background="@color/lobbyGray">
 
             <LinearLayout
+                android:id="@+id/games_list_display"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+
             </LinearLayout>
         </ScrollView>
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:background="@color/blueMessage"
+            android:textColor="@color/whiteAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:text="REFRESH LIST"/>
     </LinearLayout>
 
 
