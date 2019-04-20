@@ -38,7 +38,7 @@
         <activity android:name=".Game_create" />
         <activity android:name=".Lobby" />
         <activity android:name=".Main_screen" />
-        <activity android:name=".Common_location_service" />
+        <activity android:name=".Games_list_display" />
         <activity android:name=".SendInvite" />
         <activity android:name=".Invitations" />
 
@@ -50,6 +50,8 @@
         <service android:name=".Lobby_service_logs" />
         <service android:name=".Invitations_open_service" />
         <service android:name=".Invitations_broadcast" />
+        <service android:name=".Games_list_broadcast" />
+        <service android:name=".Games_list_service" />
     </application>
 
 </manifest>
