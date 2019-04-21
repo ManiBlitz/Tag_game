@@ -3,6 +3,7 @@
     package="com.example.kevin_tiba.mapper">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -52,6 +53,7 @@
         <service android:name=".Invitations_broadcast" />
         <service android:name=".Games_list_broadcast" />
         <service android:name=".Games_list_service" />
+        <service android:name=".Main_screen_broadcast" />
     </application>
 
 </manifest>

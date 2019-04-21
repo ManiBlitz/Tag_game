@@ -85,6 +85,19 @@
 
     </LinearLayout>
 
+    <Button
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:id="@+id/tag_button"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/whiteAccent"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold|italic"
+        android:text="TAG"
+        android:background="@drawable/rounded_button"/>
 
 
 </RelativeLayout>

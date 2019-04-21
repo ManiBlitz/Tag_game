@@ -32,32 +32,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10sp"
-                    android:layout_margin="10sp"
-                    android:textAlignment="center"
-                    android:textSize="25sp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:textStyle="bold|italic"
-                    android:text="Maniblitz"
-                    android:textColor="@color/whiteAccent"
-                    android:background="@color/lobbyPlayer"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:padding="10sp"
-                    android:layout_margin="10sp"
-                    android:textAlignment="center"
-                    android:textSize="25sp"
-                    android:fontFamily="sans-serif-condensed"
-                    android:textStyle="bold|italic"
-                    android:text="JonhDoeXX"
-                    android:textColor="@color/whiteAccent"
-                    android:background="@color/lobbyPlayer"/>
-
             </LinearLayout>
 
 
