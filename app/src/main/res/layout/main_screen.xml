@@ -21,7 +21,7 @@
             android:fontFamily="sans-serif-condensed"
             android:textStyle="bold|italic"
             android:gravity="center_vertical"
-            android:text="Time: 5:00"
+            android:text="Time: 0:00"
             android:textSize="30sp"/>
 
         <TextureView
