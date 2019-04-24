@@ -56,6 +56,8 @@
         <service android:name=".Games_list_service" />
         <service android:name=".Main_screen_broadcast" />
         <service android:name=".Main_screen_service" />
+        <service android:name=".Lobby_service" />
+        <service android:name=".Lobby_quit_service" />
     </application>
 
 </manifest>
