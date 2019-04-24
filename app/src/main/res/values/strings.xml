@@ -2,7 +2,7 @@
     <string name="app_name">TAG</string>
     <string name="gamejoin">Join Game</string>
     <string name="gamecreate">Create Game</string>
-    <string name="setting">Settings</string>
+    <string name="tutorials">Tutorials</string>
     <string name="about">About</string>
     <string name="signin">SIGN IN</string>
     <string name="register">SIGN UP</string>
@@ -15,6 +15,48 @@
     <string name="invites">INVITATIONS</string>
     <string name="send_invite">SEND INVITE</string>
     <string name="send_button">Send</string>
+
+    <string name="create_game">
+        To start a game, simply press the button Create Game and enter
+        the parameters of your game. Once this is done, you will be sent
+        to the lobby screen of your game.
+    </string>
+
+    <string name="join_game">
+        To join an ongoing game, just press the button Join Game in the entry screen.
+        You will be brought to the games page and simply have to refresh the list to see
+        the ongoing games up to 300m around you. You can select any one and jump into the lobby.
+    </string>
+
+    <string name="in_lobby">
+        Once in the lobby, you can either start the game (if you are the one that created the game)
+         or send invitations by pressing the button Send Invites. Once the game is started,
+        you will be brought to the main game screen.
+    </string>
+
+    <string name="main_game">
+        Once in the game, you have a timer displaying the time left along with your score and a button
+         TAG. pressing that button will send a signal to the server to use your location and orientation
+         to tag your adversaries. The more people you tag, the more points you get. At the end of the timer,
+        the end game screen is displayed with the leaderboard.
+    </string>
+
+    <string name="invites_screen">
+        You can receive invitations concerning the game. When sending invitations, use the username of the other player.
+        He will receive an in-game invitation and can use it once to join your game. This is especially
+        important if the game is private and therefore not displayed in the game list in Join Game
+    </string>
+
+    <string name="How_to_tag">
+        To tag, orientate your phone to the other player also holding his phone and press the button TAG,
+        if the player is in range and in your orientation, he will be tagged and you gain points. The game
+        is not too different from laser tag so if you are used to it, the transition will be easy.
+    </string>
+
+    <string name="leave_game">
+        To leave the lobby, simply press the back button on your phone. In game, use the exit button.
+        It will display a dialog menu. You will not lose your points but you will be removed from the lobby.
+    </string>
 
     <string-array name="game_types">
         <item>Free-for-All</item>
