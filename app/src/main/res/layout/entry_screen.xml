@@ -57,11 +57,11 @@
                 android:background="@color/colorPrimary"/>
 
             <Button
-                android:id="@+id/settings"
+                android:id="@+id/tutorials"
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="1"
-                android:text="@string/setting"
+                android:text="@string/tutorials"
                 android:textColor="@color/colorAccent"
                 android:fontFamily="sans-serif-condensed"
                 android:textStyle="bold|italic"

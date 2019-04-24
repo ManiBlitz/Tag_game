@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:textAlignment="center"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/tutorials"
+            android:textColor="@color/whiteAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold|italic"
+            android:gravity="center_vertical"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/tag_image"
+            tools:srcCompat="@drawable/tuto" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="8"
+            android:background="@color/tutorialgrey">
+
+            <LinearLayout
+                android:id="@+id/invitations_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="100sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Create game"
+                    android:layout_margin="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lobbyPlayer"
+                    android:text="@string/create_game"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Join Game"
+                    android:layout_margin="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lobbyPlayer"
+                    android:text="@string/join_game"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorAccent"
+                    android:text="In lobby"
+                    android:layout_margin="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lobbyPlayer"
+                    android:text="@string/in_lobby"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Main game"
+                    android:layout_margin="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lobbyPlayer"
+                    android:text="@string/main_game"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Invitations"
+                    android:layout_margin="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lobbyPlayer"
+                    android:text="@string/invites_screen"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorAccent"
+                    android:text="How to tag"
+                    android:layout_margin="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lobbyPlayer"
+                    android:text="@string/How_to_tag"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="20sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:gravity="center_vertical"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Leave game"
+                    android:layout_margin="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textColor="@color/lobbyPlayer"
+                    android:text="@string/leave_game"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginEnd="20sp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

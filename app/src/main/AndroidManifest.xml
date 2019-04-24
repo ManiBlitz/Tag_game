@@ -43,6 +43,7 @@
         <activity android:name=".Games_list_display" />
         <activity android:name=".SendInvite" />
         <activity android:name=".Invitations" />
+        <activity android:name=".Tutorial" />
 
 
         <service android:name=".Sign_in_validation" />
