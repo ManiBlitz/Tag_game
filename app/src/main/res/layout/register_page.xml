@@ -48,6 +48,7 @@
                     android:textColor="@color/colorAccent"
                     android:textSize="10sp"
                     android:inputType="textPersonName"
+                    android:hint="Enter your full name"
                     android:layout_margin="10sp"/>
 
             </LinearLayout>
@@ -75,6 +76,7 @@
                     android:textSize="10sp"
                     android:layout_height="40sp"
                     android:textColor="@color/colorAccent"
+                    android:hint="Enter a pseudoname without space"
                     android:layout_margin="10sp"/>
 
             </LinearLayout>
@@ -101,6 +103,7 @@
                     android:textSize="10sp"
                     android:layout_height="40sp"
                     android:textColor="@color/colorAccent"
+                    android:hint="Enter your email (ex: jondoe@mail.com)"
                     android:inputType="textEmailAddress"
                     android:layout_margin="10sp"/>
 
@@ -128,6 +131,7 @@
                     android:layout_height="40sp"
                     android:textSize="10sp"
                     android:textColor="@color/colorAccent"
+                    android:hint="8 characters, at least 1 uppercase, 1 lowercase, 1 number, 1 special character"
                     android:inputType="textPassword"
                     android:layout_margin="10sp"/>
 
@@ -156,6 +160,7 @@
                     android:layout_height="40sp"
                     android:textColor="@color/colorAccent"
                     android:inputType="textPassword"
+                    android:hint="Must be similar to your password"
                     android:layout_margin="10sp"/>
 
             </LinearLayout>
@@ -182,6 +187,7 @@
                     android:textSize="10sp"
                     android:layout_height="40sp"
                     android:textColor="@color/colorAccent"
+                    android:hint="ex: 4449998888"
                     android:inputType="number"
                     android:layout_margin="10sp"/>
 
@@ -209,6 +215,7 @@
                     android:textSize="10sp"
                     android:layout_height="40sp"
                     android:textColor="@color/colorAccent"
+                    android:hint="yyyy-mm-dd"
                     android:inputType="date"
                     android:layout_margin="10sp" />
 
