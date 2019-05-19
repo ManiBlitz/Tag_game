@@ -44,6 +44,7 @@
         <activity android:name=".SendInvite" />
         <activity android:name=".Invitations" />
         <activity android:name=".Tutorial" />
+        <activity android:name=".EndGameScreen" />
 
 
         <service android:name=".Sign_in_validation" />
@@ -59,6 +60,7 @@
         <service android:name=".Main_screen_service" />
         <service android:name=".Lobby_service" />
         <service android:name=".Lobby_quit_service" />
+        <service android:name=".EndGameScreenLoader" />
     </application>
 
 </manifest>
